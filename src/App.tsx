@@ -2,7 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+//함수로 '앱'이라는 컴포넌트 정의
 function App() {
+  //App 컴포넌트에서는 HTML 요소를 반환한다
   return (
     <div className="App">
       <header className="App-header">
@@ -23,4 +25,5 @@ function App() {
   );
 }
 
+//정의한 앱을 default로 익스포트한다
 export default App;
